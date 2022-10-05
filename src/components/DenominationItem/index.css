@@ -1,0 +1,26 @@
+.button {
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  height: 40px;
+  width: 20vw;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #585076;
+  cursor: pointer;
+  outline: none;
+  border: solid #ffffff 1px;
+}
+
+@media screen and(min-width:768px) {
+  .button {
+    width: 15vw;
+  }
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
